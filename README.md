@@ -10,6 +10,6 @@ and colour properties. The output is a file named image.ppm which contains the s
 also included in the Git repository as test1.png, test2.png, and test3.png.  
 
 # How to use:
-    The code can be run by typing "python raytracer.py \<input file name\>" in the
+The code can be run by typing "python raytracer.py \<input file name\>" in the
 command line. Exceptions may be raised for ill-condition inputs. Make sure to the have the input file
 and raytracer.py in the same directory!
