@@ -11,4 +11,4 @@ also included in the Git repository as test1.png, test2.png, and test3.png.
 
 If downloaded, the code can be run by typing "python raytracer.py \<input file name\>" in the
 command line. Exceptions may be raised for ill-condition inputs. Make sure to the have the input file
-and raytracer.py in the same directory
+and raytracer.py in the same directory!
