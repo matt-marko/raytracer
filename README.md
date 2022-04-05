@@ -1,5 +1,5 @@
 # Ray tracer information:
-This is a basic ray tracer I wrote for my computer graphics course. It uses
+This is a basic ray tracer I wrote in Python for my computer graphics course. It uses
 a simplified version of the Blinn-Phong model to calculate the colour at each pixel 
 of the scene. All of the code is contained in raytracer.py
 
@@ -10,6 +10,6 @@ and colour properties. The output is a file named image.ppm which contains the s
 also included in the Git repository as test1.png, test2.png, and test3.png.  
 
 # How to use:
-The code can be run by typing "python raytracer.py \<input file name\>" in the
+Once raytracer.py is downloaded, the code can be run by typing "python raytracer.py \<input file name\>" in the
 command line. For examples of test files, see the included test.txt files. Exceptions may be raised for ill-condition inputs. Make sure to the have the input file
 and raytracer.py in the same directory!
