@@ -1,5 +1,5 @@
 # Ray tracer information:
-This is a basic ray tracer I wrote in Python for my computer graphics course. It uses
+This is a ray tracer I wrote in Python for my computer graphics course. It uses
 a simplified version of the Blinn-Phong model to calculate the colour at each pixel 
 of the scene. All of the code is contained in raytracer.py
 
