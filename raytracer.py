@@ -97,7 +97,7 @@ def theLight(sphere,lights,ambient,N,dire):
     
     n = sphere["n"]
 	
-	# calculate the intensity of the colour red
+    # calculate the intensity of the colour red
     red = sphere["K"][0] * ambient[0] * sphere["rgb"][0]
 
     for i in range(0,len(lights)):
@@ -112,7 +112,7 @@ def theLight(sphere,lights,ambient,N,dire):
     red = min(red,1)
     red = max(red,0)
         
-	# now do it for the colour green
+    # now do it for the colour green
     green = sphere["K"][0] * ambient[1] * sphere["rgb"][1]
 
     for i in range(0,len(lights)):
@@ -126,7 +126,7 @@ def theLight(sphere,lights,ambient,N,dire):
     green = min(green,1)
     green = max(green,0)
     
-	# again, for the colour blue
+    # again, for the colour blue
     blue = sphere["K"][0] * ambient[2] * sphere["rgb"][2]
     
     for i in range(0,len(lights)):
@@ -154,7 +154,7 @@ def drawSphere(pixels,spheres,near,res,ambient,lights):
             thisPix = np.array([x,y,-near])
             dire = normalize(thisPix)
             
-			# print progress bar
+	    # print progress bar
             if progress < i:
                 progress += res[1]/10
                 print(str(math.floor((i/res[1])*100)) + "%")
