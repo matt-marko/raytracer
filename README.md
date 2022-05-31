@@ -1,7 +1,7 @@
 # Ray tracer information:
 This is a ray tracer I wrote in Python for my computer graphics course. It uses
 a simplified version of the Blinn-Phong model to calculate the colour at each pixel 
-of the scene. All of the code is contained in raytracer.py
+of a prespecified scene. All of the code is contained in raytracer.py
 
 The code takes a text file as input, examples of which are present in 
 the Git repository as test1.txt, test2.txt, and test3.txt. These text files
