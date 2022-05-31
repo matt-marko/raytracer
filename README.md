@@ -37,7 +37,7 @@ The content and syntax of the file is as follows:
  
 
 Syntax
-NEAR <n>
+NEAR \<n\>
 
 LEFT <l>
 
