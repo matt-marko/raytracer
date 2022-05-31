@@ -36,7 +36,7 @@ The content and syntax of the file is as follows:
 \* int         ** float          *** float between 0 and 1
 
 
-**Syntax**
+**Syntax:**
 
 NEAR \<n\>
 
