@@ -76,5 +76,5 @@ N is the normal from the surface of the sphere,
 
 R is the unit vector of reflection, and
 
-L is the unit vector representing the direction of the light ray.
+L is the unit vector directed from the light source to the point p on the surface of the sphere.
 
