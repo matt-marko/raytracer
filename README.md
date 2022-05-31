@@ -70,3 +70,11 @@ PIXEL_COLOR[c] = Ka\*Ia[c]\*O[c] + for each point light (p) \{ Kd\*Ip[c]\*(N dot
 
 where O is the object color (\<r\> \<g\> \<b\>), and \[c\] means that the variable has three different color components, so the value may vary depending on whether the red, green, or blue color channel is being calculated.
 
+Also, V is the vector from the intersection point to our eye,
+
+N is the normal from the surface of the sphere,
+
+R is the unit vector of reflection, and
+
+L is the unit vector representing the direction of the light ray.
+
