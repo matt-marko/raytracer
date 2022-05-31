@@ -17,48 +17,48 @@ and raytracer.py in the same directory!
 # Input File Format:
 The content and syntax of the file is as follows:
 
- The near plane**, left**, right**, top**, and bottom**
+*The near plane**, left**, right**, top**, and bottom**
 
- The resolution of the image nColumns* X nRows*
+*The resolution of the image nColumns* X nRows*
 
- The position** and scaling** (non-uniform), color***, Ka***, Kd***, Ks***, Kr*** and the specular exponent n* of a sphere
+*The position** and scaling** (non-uniform), color***, Ka***, Kd***, Ks***, Kr*** and the specular exponent n* of a sphere
 
- The position** and intensity*** of a point light source
+*The position** and intensity*** of a point light source
 
- The background colour ***
+*The background colour ***
 
- The scene’s ambient intensity***
+*The scene’s ambient intensity***
 
- The output file name (you should limit this to 20 characters with no spaces)
+*The output file name (you should limit this to 20 characters with no spaces)
  
 
-* int         ** float          *** float between 0 and 1
+\* int         ** float          *** float between 0 and 1
 
  
 
 Syntax
 NEAR \<n\>
 
-LEFT <l>
+LEFT \<l\>
 
-RIGHT <r>
+RIGHT \<r\>
 
-BOTTOM <b>
+BOTTOM \<b\>
 
-TOP <t>
+TOP \<t\>
 
-RES <x> <y>
+RES \<x\> \<y\>
 
-SPHERE <name> <pos x> <pos y> <pos z> <scl x> <scl y> <scl z> <r> <g> <b> <Ka> <Kd> <Ks> <Kr> <n>
+SPHERE \<name\> \<pos x\> \<pos y\> \<pos z\> \<scl x\> \<scl y\> \<scl z\> \<r\> \<g\> \<b\> \<Ka\> \<Kd\> \<Ks\> \<Kr\> \<n\>
 
 … up to 14 additional sphere specifications
 
-LIGHT <name> <pos x> <pos y> <pos z> <Ir> <Ig> <Ib>
+LIGHT \<name\> \<pos x\> \<pos y\> \<pos z\> \<Ir\> \<Ig\> \<Ib\>
 
 … up to 9 additional light specifications
 
-BACK <r> <g > <b>
+BACK \<r\> \<g\> \<b\>
 
-AMBIENT <Ir> <Ig> <Ib>
+AMBIENT \<Ir\> \<Ig\> \<Ib\>
 
-OUTPUT <name>
+OUTPUT \<name\>
