@@ -31,7 +31,7 @@ The content and syntax of the file is as follows:
 
 * The scene’s ambient intensity***
 
-* The output file name (you should limit this to 20 characters with no spaces)
+* The output file name
  
 \* int         ** float          *** float between 0 and 1
 
