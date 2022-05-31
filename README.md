@@ -14,7 +14,7 @@ Once raytracer.py is downloaded, the code can be run by typing "python raytracer
 command line. For examples of test files, see the included test.txt files. Exceptions may be raised for ill-condition inputs. Make sure to the have the input file
 and raytracer.py in the same directory!
 
-# Input File Format:
+# Input file format:
 The content and syntax of the file is as follows:
 
 **Content:**
@@ -63,3 +63,10 @@ BACK \<r\> \<g\> \<b\>
 AMBIENT \<Ir\> \<Ig\> \<Ib\>
 
 OUTPUT \<name\>
+
+# The eqeuation used:
+
+PIXEL_COLOR[c] = Ka\*Ia[c]\*O[c] + for each point light (p) \{ Kd\*Ip[c]\*(N dot L)\*O[c]+Ks\*Ip[c]\*(R dot V)n }
+
+where O is the object color (\<r\> \<g\> \<b\>), and \[c\] means that the variable has three different color components, so the value may vary depending on whether the red, green, or blue color channel is being calculated.
+
