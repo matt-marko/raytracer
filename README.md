@@ -64,7 +64,7 @@ AMBIENT \<Ir\> \<Ig\> \<Ib\>
 
 OUTPUT \<name\>
 
-# The eqeuation used:
+# The equation used:
 
 PIXEL_COLOR[c] = Ka\*Ia[c]\*O[c] + for each point light (p) \{ Kd\*Ip[c]\*(N dot L)\*O[c]+Ks\*Ip[c]\*(R dot V)n }
 
