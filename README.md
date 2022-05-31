@@ -17,6 +17,8 @@ and raytracer.py in the same directory!
 # Input File Format:
 The content and syntax of the file is as follows:
 
+**Content:**
+
 * The near plane**, left**, right**, top**, and bottom**
 
 * The resolution of the image nColumns* X nRows*
@@ -34,7 +36,8 @@ The content and syntax of the file is as follows:
 \* int         ** float          *** float between 0 and 1
 
 
-Syntax
+**Syntax**
+
 NEAR \<n\>
 
 LEFT \<l\>
