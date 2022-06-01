@@ -72,7 +72,7 @@ where O is the object color (\<r\> \<g\> \<b\>), and \[c\] means that the variab
 
 Also, V is the vector from the intersection point to our eye,
 
-N is the normal from the surface of the sphere,
+N is the normal vector from the surface of the sphere,
 
 R is the unit vector of reflection, and
 
