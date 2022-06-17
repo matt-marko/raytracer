@@ -1,4 +1,4 @@
-"""
+'''
 Matt Marko
 April 2021
 
@@ -16,7 +16,7 @@ How to use:
 	The code can be run by typing "python raytracer.py <input file name>" in the
 command line. For examples of test files, see the included test.txt files. Exceptions may be raised
 for ill-condition inputs. Make sure to the have the input file and raytracer.py in the same directory!
-"""
+'''
 
 import numpy as np
 import array
