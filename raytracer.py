@@ -23,20 +23,26 @@ import array
 import math
 import sys
 
-# Find the file
 def getFile(name):
+    ''' 
+        Opens the file with the associated file name.
+    '''
     myFile = open(name,"r")
     return myFile 
 
-# Find the inputs
 def getInputs(file):
+    '''
+        Recieves the specifications from the input file.
+    '''
     lines = []
     for line in file:
         lines.append(line)
     return lines
 
-# Receive spheres
 def getSpheres(inputs):
+    '''
+        Return the properties of the spheres.
+    '''
     spheres = []
     numSpheres = 0
     for i in range(0,len(inputs)):
@@ -56,8 +62,10 @@ def getSpheres(inputs):
         
     return spheres
 
-# Receive lights
 def getLights(inputs):
+    '''
+        Return the properties of the spheres.
+    '''
     lights = []
     numLights = 0
     for i in range(0,len(inputs)):
@@ -74,18 +82,23 @@ def getLights(inputs):
     
     return lights
 
-# Normalize a vector
 def normalize(vector):
+    '''
+        Returns the unit vector pointing in the same direction as the
+	input vector.
+    '''
     norm = np.linalg.norm(vector)
     if norm == 0:
         return np.array([1,1,1])
     else:
         return vector/norm
 
-# Calculate the light and colour properties
-# based on the simplified variation of the
-# Phong illumination model
 def theLight(sphere,lights,ambient,N,dire):
+    '''
+        Calculate the light and colour properties
+        based on the simplified variation of the
+        Phong illumination model.
+    '''
     # V is the vector from the intersection point to our eye
     V = normalize(dire)
     
@@ -142,8 +155,10 @@ def theLight(sphere,lights,ambient,N,dire):
 
     return np.array([red,green,blue])
 
-# Draw our Spheres
 def drawSphere(pixels,spheres,near,res,ambient,lights):
+    '''
+        Returns the colour of each pixel in the canvas.
+    '''
     closest = np.inf
     closestIndex = 0
     progress = 0
@@ -179,9 +194,11 @@ def drawSphere(pixels,spheres,near,res,ambient,lights):
             closest = np.inf
             
     return pixels
-    
-# Calculate the intersection of a ray with a sphere
+
 def intersect(center,unscaled,scale,origin):
+    '''
+        Calculate the intersection of a ray with a sphere.
+    '''
     # Ray: S + ct
     S = np.array(origin)-np.array(center)
     
